@@ -1,0 +1,56 @@
+{
+  "_from": "three-fbxloader-offical@^1.0.0",
+  "_id": "three-fbxloader-offical@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-231oTuZRdLMETdluR5UZlSUg9Nc=",
+  "_location": "/three-fbxloader-offical",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "three-fbxloader-offical@^1.0.0",
+    "name": "three-fbxloader-offical",
+    "escapedName": "three-fbxloader-offical",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://r.cnpmjs.org/three-fbxloader-offical/download/three-fbxloader-offical-1.0.0.tgz",
+  "_shasum": "db7d684ee65174b3044dd96e479519952520f4d7",
+  "_spec": "three-fbxloader-offical@^1.0.0",
+  "_where": "/Users/suoyuwen/Desktop/webWorker/web-marker-slamar",
+  "author": {
+    "name": "tomyl"
+  },
+  "bugs": {
+    "url": "https://github.com/cs64188/three-fbxloader/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Threejs fbxload with offical apply 'inflate.min.js' its fluent",
+  "homepage": "https://github.com/cs64188/three-fbxloader",
+  "keywords": [
+    "fbxloader",
+    "fbx",
+    "three-fbxloader",
+    "threejs",
+    "three.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "three-fbxloader-offical",
+  "peerDependencies": {
+    "three": ">= 0.91"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs64188/three-fbxloader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

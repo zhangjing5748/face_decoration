@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>AR</title>
+</head>
+
+<body>
+  <div class="ar_content" id="app">
+    <div class="ar_wrap">
+      <h2>SenseAR</h2>
+      <div class="ar_main">
+        <div class="ar_camera">
+          <div class="ar_video">
+            <div id="camera">
+              <video autoplay webkit-playsinline playsinline id="userVideo" controls object-fit:fill
+                x5-video-player-type="h5" x5-video-player-fullscreen="true" x-webkit-airplay="allow"
+                x5-video-orientation="landscape|portrait" muted></video>
+            </div>
+            <div id="loading">
+              <div class="loading">
+                <embed id="svg">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  style=" background: none; display: block; shape-rendering: auto;" width="104px" height="104px"
+                  viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                  <path fill="none" stroke="#ffffff" stroke-width="5"
+                    stroke-dasharray="197.57347473144532 59.015453491210934"
+                    d="M24.3 30C11.4 30 5 43.3 5 50s6.4 20 19.3 20c19.3 0 32.1-40 51.4-40 C88.6 30 95 43.3 95 50s-6.4 20-19.3 20C56.4 70 43.6 30 24.3 30z"
+                    stroke-linecap="round" style="transform:scale(0.67);transform-origin:50px 50px">
+                    <animate attributeName="stroke-dashoffset" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                      values="0;256.58892822265625"></animate>
+                  </path>
+                </svg>
+                </embed>
+                <div id="loadingTxt">
+                  加载AR算法库...
+                </div>
+              </div>
+            </div>
+            <div id="photo">
+              <img id="uploadImg" src="./src/assets/img/face/ymk-beauty-2.jpg" class="modelImg" alt="" />
+            </div>
+          </div>
+          <div class="buttonCon">
+            <div class="handlebtn camera_left" id="cameraBtn">
+              Live<br />Camera
+            </div>
+            <div class="handlebtn photo_right">
+              <div class="textIn" id="photoBtn">Photo</div>
+              <input type="file" />
+            </div>
+          </div>
+        </div>
+        <App></App>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
