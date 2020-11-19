@@ -4,14 +4,14 @@
 
 ### 安装依赖
 ```bash
-npm run install
+npm install
 ```
 ### 启动本地开发环境（自带热更新）
 
 ```bash
 npm run dev
 
-then you can visit   https://your_address:9209
+then you can visit   https://your_address:8880
 ```
 
 ### 构建生产环境 (自带压缩)
